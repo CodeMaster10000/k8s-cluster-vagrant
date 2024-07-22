@@ -1,4 +1,4 @@
-# Vagrantfile and Scripts to Automate Kubernetes Setup using Kubeadm
+# Kubernetes Setup (1 master, N workers) using Vagrant
 
 ## Documentation
 
@@ -21,7 +21,7 @@ ex. For windows open the system environment variables and set the VAGRANT_HOME t
 ## Box configuration
 
 As the box is not present because most version control providers do not allow files as big as a vagrant box (1GB),
-I will provide u the box hosted on Google Cloud throigh a link.
+I will provide u the box hosted on Google Cloud through a link.
 
 First, navigate to the directory `boxes/vbox-ubuntu`.
 Download the box from the link:
