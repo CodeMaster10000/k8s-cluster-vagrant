@@ -1,5 +1,5 @@
 ---
-version: 0.2.27
+version: 0.2.28
 # cluster_name is used to group the nodes in a folder within VirtualBox:
 cluster_name: K8S
 mount_path: ./
