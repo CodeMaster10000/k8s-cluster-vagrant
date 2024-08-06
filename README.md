@@ -11,6 +11,13 @@ Refer this link for documentation: https://devopscube.com/kubernetes-cluster-vag
 3. VirtualBox v7.0.6 and above
 4. Vagrant 2.4.0 and above
 
+## Clone
+
+Clone the repository
+```shell
+git clone https://github.com/CodeMaster10000/k8s-cluster-vagrant.git
+```
+
 ## Change Vagrant Directory
 
 Create folder that you want to use for vagrant
@@ -35,7 +42,6 @@ Make sure the box's relative path is `boxes\vbox-ubuntu\bento-ubuntu-22-04.box`.
 To provision the cluster, execute the following commands.
 
 ```shell
-git clone https://github.com/CodeMaster10000/k8s-cluster-vagrant.git
 cd vagrant-k8s-cluster
 vagrant up
 ```
